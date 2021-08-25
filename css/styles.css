@@ -2154,3 +2154,7 @@ color: black;
   font-weight: 400px;
   color: #262626;
 }
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+  outline: none;
+}

@@ -12,7 +12,7 @@ RESPONSIVES
     background: #fff;
     padding-bottom: 20px;
     -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
     -webkit-transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
     transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
     border-radius: 5px;
@@ -36,7 +36,7 @@ RESPONSIVES
     margin-top: 10px;
   }
   .custom-menu .current {
-    color: #2FE7B1;
+    color: #2fe7b1;
   }
   /* team SLIDER */
   .team-slider__indicators {
@@ -44,11 +44,11 @@ RESPONSIVES
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-bottom: 0;
     margin-top: 50px;
   }
@@ -58,11 +58,11 @@ RESPONSIVES
     margin: 0;
   }
   .mfp-close {
-    left: 50%  ;
-    -webkit-transform: translateX(-50%)  ;
-            transform: translateX(-50%)  ;
-    top: auto  ;
-    bottom: -80px  ;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: auto;
+    bottom: -80px;
   }
   .section-screens__inner {
     margin-bottom: 50px;
@@ -76,19 +76,19 @@ RESPONSIVES
   .input-group {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .input-group .form-control {
-    border: 1px solid #1B2733  ;
+    border: 1px solid #1b2733;
     width: 100%;
     margin-bottom: 10px;
-    border-top-right-radius: 2px  ;
-    border-bottom-right-radius: 2px  ;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
   }
   .input-group .btn {
-    border-top-left-radius: 2px  ;
-    border-bottom-left-radius: 2px  ;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
   }
   .workshops-single {
     margin-bottom: 40px;
@@ -96,8 +96,8 @@ RESPONSIVES
   .callout {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .first-of-footer-widget {
     margin-top: 30px;
@@ -121,10 +121,10 @@ RESPONSIVES
   .has-sticky-header {
     padding-top: 50px;
   }
-  .hire-title{
+  .hire-title {
     margin-top: 35px;
   }
-  .section-title{
+  .section-title {
     font-size: 34px;
   }
   .container {
@@ -161,11 +161,11 @@ RESPONSIVES
   .feature-list-wrapper .btn-link {
     width: 100%;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .feature-list-image {
     margin-bottom: 30px;
@@ -187,7 +187,7 @@ RESPONSIVES
   }
   .team-item__thumb {
     -ms-flex-item-align: center;
-        align-self: center;
+    align-self: center;
     width: 100%;
     margin-top: 50px;
   }
@@ -206,5 +206,59 @@ RESPONSIVES
   }
   .First-of-Footer-Widget {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  img{
+    height: 30px;
+    width: 250px;
+  }
+  .social-list__inline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-list__inline li{
+    margin-right: 10px !important;
+    margin-top: 3px;
+  }
+  .menu-icon__circle{
+    height: 35px;
+    width: 35px;
+  }
+  .container {
+    flex-direction: column;
+    padding: 0 5px;
+  }
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    margin: 10px;
+  }
+  .navbar-brand{
+    margin-right:0;
+  }
+  .navbar-collapse{
+    padding: 0 15px;
+  }
+  .container-fluid{
+    padding: 0 10px;
+  }
+  .carousel-item{
+    padding: 0;
+  }
+  .feature-card{
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .feature-card__body p {
+    margin: 0;
+  }
+  #chat-bot-launcher-container .chat-bot-launcher {
+    width: 30px;
+    height: 30px;
+  }
+  .section-spacer ul li{
+    margin: 0;
   }
 }
